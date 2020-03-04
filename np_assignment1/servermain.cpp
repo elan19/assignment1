@@ -84,4 +84,10 @@ int main(int argc, char *argv[]){
         break;
     }
 
+    if (p == NULL)
+    {
+        printf("Could not create socket!");
+        exit(0);
+    }
+
 }
